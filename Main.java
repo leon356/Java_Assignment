@@ -5,7 +5,7 @@ public class Main {
         MessageHandler myMessageHandler = new MessageHandler();
         Random rand = new Random();
         int desktopId;
-
+        
         // Test creating desktop storers
         for (int j = 0; j < 1000; j++) {
             desktopId = rand.nextInt(3); // random from 0–9
